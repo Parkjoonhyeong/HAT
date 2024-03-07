@@ -17,7 +17,7 @@ git push -u origin main
 
 …or push an existing repository from the command line
 
-git remote add origin https://github.com/Parkjoonhyeong/HAT2.git
+git remote add origin https://github.com/Parkjoonhyeong/HAT.git
 
 git branch -M main
 
