@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HAT - Web Vulnerabilities Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .bg-filter {
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+    </style>
+  </head>
+
+  <body class="font-sans bg-white text-gray-800 overflow-y-hidden">
+    <header class="bg-white shadow shadow-lg relative">
+      <nav
+        class="container mx-auto px-6 py-3 flex justify-between items-center"
+      >
+        <!-- HAT 로고 -->
+        <a href="/" class="text-3xl font-bold text-sky-600">HAT</a>
+
+        <!-- 로그인 버튼 -->
+        <div>
+          <button
+            class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded"
+          >
+            Oauth Login
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- 국기 -->
+    <div class="container mx-auto px-4 py-2 flex justify-end items-center mt-2">
+      <img src="./img/korea_flag.png" class="w-12 h-8" alt="Korea Flag" />
+      <img src="./img/us_flag.png" class="w-12 h-8" alt="US Flag" />
+    </div>
+  </body>
+</html>
